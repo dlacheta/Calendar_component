@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Price
+    price={298}
+    priceCountry="zł"
+    rating={4}
+    ratingAmount={123}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          298
+           
+          zł
+           
+          <span
+            className="small_text"
+          >
+            per night
+          </span>
+        </div>,
+        <Rating
+          rating={4}
+          ratingAmount={123}
+        />,
+      ],
+      "className": "price",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            298,
+            " ",
+            "zł",
+            " ",
+            <span
+              className="small_text"
+            >
+              per night
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          298,
+          " ",
+          "zł",
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "per night",
+              "className": "small_text",
+            },
+            "ref": null,
+            "rendered": "per night",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "rating": 4,
+          "ratingAmount": 123,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            298
+             
+            zł
+             
+            <span
+              className="small_text"
+            >
+              per night
+            </span>
+          </div>,
+          <Rating
+            rating={4}
+            ratingAmount={123}
+          />,
+        ],
+        "className": "price",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              298,
+              " ",
+              "zł",
+              " ",
+              <span
+                className="small_text"
+              >
+                per night
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            298,
+            " ",
+            "zł",
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "per night",
+                "className": "small_text",
+              },
+              "ref": null,
+              "rendered": "per night",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "rating": 4,
+            "ratingAmount": 123,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

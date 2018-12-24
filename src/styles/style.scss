@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Material+Icons");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #424242;
+  font-weight: bold;
+}
+
+.container {
+  border: 1px solid #eeeeee;
+  padding: 15px;
+  width: 300px;
+}
+
+.price {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.small_text {
+  font-size: 9px;
+}
+
+.rating {
+  font-size: 9px;
+  margin-top: 5px;
+
+  .material-icons {
+    font-size: 10px;
+    display: inline;
+    color: #eeeeee;
+    margin-right: -50px;
+  }
+  .full {
+    color: #009688;
+  }
+}
+
+.date_inputs {
+  margin-top: 3px;
+  border: 1px solid #eeeeee;
+  padding: 5px;
+  display: flex;
+
+  input {
+    width: 128px;
+    border: 0;
+    padding-left: 5px;
+    color: #424242;
+    outline: none;
+    border-radius: 3px;
+  }
+}
+
+.dates {
+  position: relative;
+}
+
+.check_in_form,
+.check_out_form {
+  position: absolute;
+  left: 0;
+  top: 65px;
+  background: #fff;
+  border: 1px solid #eeeeee;
+  width: 298px;
+}
+
+%check_form_after_before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  z-index: 2;
+}
+
+.check_in_form::after {
+  @extend %check_form_after_before;
+  border-bottom: 8px solid #fff;
+  top: -7px;
+  left: 20px;
+}
+
+.check_in_form::before {
+  @extend %check_form_after_before;
+  border-bottom: 8px solid #eeeeee;
+  top: -8px;
+  left: 20px;
+}
+
+.check_out_form::after {
+  @extend %check_form_after_before;
+  border-bottom: 8px solid #fff;
+  top: -7px;
+  left: 180px;
+}
+
+.check_out_form::before {
+  @extend %check_form_after_before;
+  border-bottom: 8px solid #eeeeee;
+  top: -8px;
+  left: 180px;
+}
+
+.input_green {
+  background: #b2dfdb;
+}
+
+.date_form {
+  padding: 10px;
+
+  .month {
+    display: flex;
+    justify-content: space-between;
+
+    .month_name {
+      padding-top: 5px;
+    }
+  }
+
+  button {
+    background: #fff;
+    border: 1px solid #eeeeee;
+    width: 40px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    color: #424242;
+  }
+
+  .month_layout {
+    margin: 10px 0;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      width: 39px;
+      height: 30px;
+    }
+
+    th {
+      font-size: 9px;
+    }
+
+    td {
+      border: 1px solid #eeeeee;
+      text-align: center;
+      font-size: 12px;
+      color: #eeeeee;
+      text-decoration: line-through;
+    }
+
+    .available {
+      color: #424242;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .empty {
+      border: 0 !important;
+    }
+  }
+}
+
+.search {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: #ee6e73;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}

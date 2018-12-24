@@ -1,0 +1,3892 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateForm component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DateForm
+    availableDates={
+      Array [
+        "4/12/2018",
+        "5/12/2018",
+        "6/12/2018",
+        "7/12/2018",
+        "8/12/2018",
+        "9/12/2018",
+        "10/12/2018",
+        "11/12/2018",
+        "12/12/2018",
+        "13/12/2018",
+        "14/12/2018",
+        "15/12/2018",
+        "16/12/2018",
+        "17/12/2018",
+        "18/12/2018",
+        "19/12/2018",
+      ]
+    }
+    checkInVisible={false}
+    formDate={2018-12-24T12:35:44.728Z}
+    nextMonth={[MockFunction]}
+    pickCheckIn={[MockFunction]}
+    pickCheckOut={[MockFunction]}
+    previousMonth={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="month"
+        >
+          <button
+            onClick={[MockFunction]}
+          >
+            <i
+              className="material-icons"
+            >
+              arrow_backwards
+            </i>
+          </button>
+          <span
+            className="month_name"
+          >
+            December
+             
+            2018
+          </span>
+          <button
+            onClick={[MockFunction]}
+          >
+            <i
+              className="material-icons"
+            >
+              arrow_forward
+            </i>
+          </button>
+        </div>,
+        <div
+          className="month_layout"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Su
+                </th>
+                <th>
+                  Mo
+                </th>
+                <th>
+                  Tu
+                </th>
+                <th>
+                  We
+                </th>
+                <th>
+                  Th
+                </th>
+                <th>
+                  Fr
+                </th>
+                <th>
+                  Sa
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="empty"
+                  colSpan={6}
+                />
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  1
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  2
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  3
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  4
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  5
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  6
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  7
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  8
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  9
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  10
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  11
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  12
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  13
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  14
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  15
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  16
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  17
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  18
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  19
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  20
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  21
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  22
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  23
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  24
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  25
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  26
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  27
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  28
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  29
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  30
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  31
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>,
+      ],
+      "className": "date_form",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              onClick={[MockFunction]}
+            >
+              <i
+                className="material-icons"
+              >
+                arrow_backwards
+              </i>
+            </button>,
+            <span
+              className="month_name"
+            >
+              December
+               
+              2018
+            </span>,
+            <button
+              onClick={[MockFunction]}
+            >
+              <i
+                className="material-icons"
+              >
+                arrow_forward
+              </i>
+            </button>,
+          ],
+          "className": "month",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons"
+              >
+                arrow_backwards
+              </i>,
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "arrow_backwards",
+                "className": "material-icons",
+              },
+              "ref": null,
+              "rendered": "arrow_backwards",
+              "type": "i",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "December",
+                " ",
+                2018,
+              ],
+              "className": "month_name",
+            },
+            "ref": null,
+            "rendered": Array [
+              "December",
+              " ",
+              2018,
+            ],
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons"
+              >
+                arrow_forward
+              </i>,
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "arrow_forward",
+                "className": "material-icons",
+              },
+              "ref": null,
+              "rendered": "arrow_forward",
+              "type": "i",
+            },
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table>
+            <thead>
+              <tr>
+                <th>
+                  Su
+                </th>
+                <th>
+                  Mo
+                </th>
+                <th>
+                  Tu
+                </th>
+                <th>
+                  We
+                </th>
+                <th>
+                  Th
+                </th>
+                <th>
+                  Fr
+                </th>
+                <th>
+                  Sa
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  className="empty"
+                  colSpan={6}
+                />
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  1
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  2
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  3
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  4
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  5
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  6
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  7
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  8
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  9
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  10
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  11
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  12
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  13
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  14
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  15
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  16
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  17
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  18
+                </td>
+                <td
+                  className="available"
+                  onClick={[Function]}
+                >
+                  19
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  20
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  21
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  22
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  23
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  24
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  25
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  26
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  27
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  28
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  29
+                </td>
+              </tr>
+              <tr>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  30
+                </td>
+                <td
+                  className={null}
+                  onClick={null}
+                >
+                  31
+                </td>
+              </tr>
+            </tbody>
+          </table>,
+          "className": "month_layout",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                  <th>
+                    Su
+                  </th>
+                  <th>
+                    Mo
+                  </th>
+                  <th>
+                    Tu
+                  </th>
+                  <th>
+                    We
+                  </th>
+                  <th>
+                    Th
+                  </th>
+                  <th>
+                    Fr
+                  </th>
+                  <th>
+                    Sa
+                  </th>
+                </tr>
+              </thead>,
+              <tbody>
+                <tr>
+                  <td
+                    className="empty"
+                    colSpan={6}
+                  />
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    2
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    3
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    4
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    5
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    6
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    7
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    8
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    9
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    10
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    11
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    12
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    13
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    14
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    15
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    16
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    17
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    18
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    19
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    20
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    21
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    22
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    23
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    24
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    25
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    26
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    27
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    28
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    29
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    30
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    31
+                  </td>
+                </tr>
+              </tbody>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                    Su
+                  </th>
+                  <th>
+                    Mo
+                  </th>
+                  <th>
+                    Tu
+                  </th>
+                  <th>
+                    We
+                  </th>
+                  <th>
+                    Th
+                  </th>
+                  <th>
+                    Fr
+                  </th>
+                  <th>
+                    Sa
+                  </th>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      Su
+                    </th>,
+                    <th>
+                      Mo
+                    </th>,
+                    <th>
+                      Tu
+                    </th>,
+                    <th>
+                      We
+                    </th>,
+                    <th>
+                      Th
+                    </th>,
+                    <th>
+                      Fr
+                    </th>,
+                    <th>
+                      Sa
+                    </th>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Su",
+                    },
+                    "ref": null,
+                    "rendered": "Su",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mo",
+                    },
+                    "ref": null,
+                    "rendered": "Mo",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tu",
+                    },
+                    "ref": null,
+                    "rendered": "Tu",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "We",
+                    },
+                    "ref": null,
+                    "rendered": "We",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Th",
+                    },
+                    "ref": null,
+                    "rendered": "Th",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Fr",
+                    },
+                    "ref": null,
+                    "rendered": "Fr",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sa",
+                    },
+                    "ref": null,
+                    "rendered": "Sa",
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <tr>
+                    <td
+                      className="empty"
+                      colSpan={6}
+                    />
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      1
+                    </td>
+                  </tr>,
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      2
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      3
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      4
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      5
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      6
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      7
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      8
+                    </td>
+                  </tr>,
+                  <tr>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      9
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      10
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      11
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      12
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      13
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      14
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      15
+                    </td>
+                  </tr>,
+                  <tr>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      16
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      17
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      18
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      19
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      20
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      21
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      22
+                    </td>
+                  </tr>,
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      23
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      24
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      25
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      26
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      27
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      28
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      29
+                    </td>
+                  </tr>,
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      30
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      31
+                    </td>
+                  </tr>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className="empty"
+                        colSpan={6}
+                      />,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        1
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "empty",
+                        "colSpan": 6,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 1,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 1,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        2
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        3
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        4
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        5
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        6
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        7
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        8
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 2,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 2,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 3,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 3,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 4,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 4,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 5,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 5,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 6,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 6,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 7,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 7,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 8,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 8,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        9
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        10
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        11
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        12
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        13
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        14
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        15
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 9,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 9,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 10,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 10,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 11,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 11,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 12,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 12,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 13,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 13,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 14,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 14,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 15,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 15,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        16
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        17
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        18
+                      </td>,
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        19
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        20
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        21
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        22
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 16,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 16,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 17,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 17,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 18,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 18,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 19,
+                        "className": "available",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": 19,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 20,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 20,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 21,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 21,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 22,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 22,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        23
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        24
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        25
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        26
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        27
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        28
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        29
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 23,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 23,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 24,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 24,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 25,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 25,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 26,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 26,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 27,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 27,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 28,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 28,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "7",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 29,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 29,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        30
+                      </td>,
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        31
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 30,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 30,
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": 31,
+                        "className": null,
+                        "onClick": null,
+                      },
+                      "ref": null,
+                      "rendered": 31,
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+              ],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="month"
+          >
+            <button
+              onClick={[MockFunction]}
+            >
+              <i
+                className="material-icons"
+              >
+                arrow_backwards
+              </i>
+            </button>
+            <span
+              className="month_name"
+            >
+              December
+               
+              2018
+            </span>
+            <button
+              onClick={[MockFunction]}
+            >
+              <i
+                className="material-icons"
+              >
+                arrow_forward
+              </i>
+            </button>
+          </div>,
+          <div
+            className="month_layout"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    Su
+                  </th>
+                  <th>
+                    Mo
+                  </th>
+                  <th>
+                    Tu
+                  </th>
+                  <th>
+                    We
+                  </th>
+                  <th>
+                    Th
+                  </th>
+                  <th>
+                    Fr
+                  </th>
+                  <th>
+                    Sa
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="empty"
+                    colSpan={6}
+                  />
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    2
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    3
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    4
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    5
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    6
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    7
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    8
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    9
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    10
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    11
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    12
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    13
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    14
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    15
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    16
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    17
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    18
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    19
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    20
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    21
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    22
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    23
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    24
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    25
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    26
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    27
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    28
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    29
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    30
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    31
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>,
+        ],
+        "className": "date_form",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                onClick={[MockFunction]}
+              >
+                <i
+                  className="material-icons"
+                >
+                  arrow_backwards
+                </i>
+              </button>,
+              <span
+                className="month_name"
+              >
+                December
+                 
+                2018
+              </span>,
+              <button
+                onClick={[MockFunction]}
+              >
+                <i
+                  className="material-icons"
+                >
+                  arrow_forward
+                </i>
+              </button>,
+            ],
+            "className": "month",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons"
+                >
+                  arrow_backwards
+                </i>,
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "arrow_backwards",
+                  "className": "material-icons",
+                },
+                "ref": null,
+                "rendered": "arrow_backwards",
+                "type": "i",
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "December",
+                  " ",
+                  2018,
+                ],
+                "className": "month_name",
+              },
+              "ref": null,
+              "rendered": Array [
+                "December",
+                " ",
+                2018,
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons"
+                >
+                  arrow_forward
+                </i>,
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "arrow_forward",
+                  "className": "material-icons",
+                },
+                "ref": null,
+                "rendered": "arrow_forward",
+                "type": "i",
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table>
+              <thead>
+                <tr>
+                  <th>
+                    Su
+                  </th>
+                  <th>
+                    Mo
+                  </th>
+                  <th>
+                    Tu
+                  </th>
+                  <th>
+                    We
+                  </th>
+                  <th>
+                    Th
+                  </th>
+                  <th>
+                    Fr
+                  </th>
+                  <th>
+                    Sa
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    className="empty"
+                    colSpan={6}
+                  />
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    1
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    2
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    3
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    4
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    5
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    6
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    7
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    8
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    9
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    10
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    11
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    12
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    13
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    14
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    15
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    16
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    17
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    18
+                  </td>
+                  <td
+                    className="available"
+                    onClick={[Function]}
+                  >
+                    19
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    20
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    21
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    22
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    23
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    24
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    25
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    26
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    27
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    28
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    29
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    30
+                  </td>
+                  <td
+                    className={null}
+                    onClick={null}
+                  >
+                    31
+                  </td>
+                </tr>
+              </tbody>
+            </table>,
+            "className": "month_layout",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <thead>
+                  <tr>
+                    <th>
+                      Su
+                    </th>
+                    <th>
+                      Mo
+                    </th>
+                    <th>
+                      Tu
+                    </th>
+                    <th>
+                      We
+                    </th>
+                    <th>
+                      Th
+                    </th>
+                    <th>
+                      Fr
+                    </th>
+                    <th>
+                      Sa
+                    </th>
+                  </tr>
+                </thead>,
+                <tbody>
+                  <tr>
+                    <td
+                      className="empty"
+                      colSpan={6}
+                    />
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      1
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      2
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      3
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      4
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      5
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      6
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      7
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      8
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      9
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      10
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      11
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      12
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      13
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      14
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      15
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      16
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      17
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      18
+                    </td>
+                    <td
+                      className="available"
+                      onClick={[Function]}
+                    >
+                      19
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      20
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      21
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      22
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      23
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      24
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      25
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      26
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      27
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      28
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      29
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      30
+                    </td>
+                    <td
+                      className={null}
+                      onClick={null}
+                    >
+                      31
+                    </td>
+                  </tr>
+                </tbody>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <tr>
+                    <th>
+                      Su
+                    </th>
+                    <th>
+                      Mo
+                    </th>
+                    <th>
+                      Tu
+                    </th>
+                    <th>
+                      We
+                    </th>
+                    <th>
+                      Th
+                    </th>
+                    <th>
+                      Fr
+                    </th>
+                    <th>
+                      Sa
+                    </th>
+                  </tr>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <th>
+                        Su
+                      </th>,
+                      <th>
+                        Mo
+                      </th>,
+                      <th>
+                        Tu
+                      </th>,
+                      <th>
+                        We
+                      </th>,
+                      <th>
+                        Th
+                      </th>,
+                      <th>
+                        Fr
+                      </th>,
+                      <th>
+                        Sa
+                      </th>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Su",
+                      },
+                      "ref": null,
+                      "rendered": "Su",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Mo",
+                      },
+                      "ref": null,
+                      "rendered": "Mo",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Tu",
+                      },
+                      "ref": null,
+                      "rendered": "Tu",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "We",
+                      },
+                      "ref": null,
+                      "rendered": "We",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Th",
+                      },
+                      "ref": null,
+                      "rendered": "Th",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Fr",
+                      },
+                      "ref": null,
+                      "rendered": "Fr",
+                      "type": "th",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Sa",
+                      },
+                      "ref": null,
+                      "rendered": "Sa",
+                      "type": "th",
+                    },
+                  ],
+                  "type": "tr",
+                },
+                "type": "thead",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <tr>
+                      <td
+                        className="empty"
+                        colSpan={6}
+                      />
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        1
+                      </td>
+                    </tr>,
+                    <tr>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        2
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        3
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        4
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        5
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        6
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        7
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        8
+                      </td>
+                    </tr>,
+                    <tr>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        9
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        10
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        11
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        12
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        13
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        14
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        15
+                      </td>
+                    </tr>,
+                    <tr>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        16
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        17
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        18
+                      </td>
+                      <td
+                        className="available"
+                        onClick={[Function]}
+                      >
+                        19
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        20
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        21
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        22
+                      </td>
+                    </tr>,
+                    <tr>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        23
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        24
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        25
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        26
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        27
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        28
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        29
+                      </td>
+                    </tr>,
+                    <tr>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        30
+                      </td>
+                      <td
+                        className={null}
+                        onClick={null}
+                      >
+                        31
+                      </td>
+                    </tr>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className="empty"
+                          colSpan={6}
+                        />,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          1
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "empty",
+                          "colSpan": 6,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 1,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 1,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          2
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          3
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          4
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          5
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          6
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          7
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          8
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 2,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 2,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 3,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 3,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 4,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 4,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 5,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 5,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "5",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 6,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 6,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "6",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 7,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 7,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "7",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 8,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 8,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          9
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          10
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          11
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          12
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          13
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          14
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          15
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 9,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 9,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 10,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 10,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 11,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 11,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 12,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 12,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "5",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 13,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 13,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "6",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 14,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 14,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "7",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 15,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 15,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          16
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          17
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          18
+                        </td>,
+                        <td
+                          className="available"
+                          onClick={[Function]}
+                        >
+                          19
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          20
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          21
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          22
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 16,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 16,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 17,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 17,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 18,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 18,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 19,
+                          "className": "available",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": 19,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "5",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 20,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 20,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "6",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 21,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 21,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "7",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 22,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 22,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          23
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          24
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          25
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          26
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          27
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          28
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          29
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 23,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 23,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 24,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 24,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 25,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 25,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "4",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 26,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 26,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "5",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 27,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 27,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "6",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 28,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 28,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "7",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 29,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 29,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "5",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          30
+                        </td>,
+                        <td
+                          className={null}
+                          onClick={null}
+                        >
+                          31
+                        </td>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 30,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 30,
+                        "type": "td",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": 31,
+                          "className": null,
+                          "onClick": null,
+                        },
+                        "ref": null,
+                        "rendered": 31,
+                        "type": "td",
+                      },
+                    ],
+                    "type": "tr",
+                  },
+                ],
+                "type": "tbody",
+              },
+            ],
+            "type": "table",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

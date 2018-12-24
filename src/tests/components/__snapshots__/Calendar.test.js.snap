@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Calendar
+    availableDates={
+      Array [
+        "4/12/2018",
+        "5/12/2018",
+        "6/12/2018",
+        "7/12/2018",
+        "8/12/2018",
+        "9/12/2018",
+        "10/12/2018",
+        "11/12/2018",
+        "12/12/2018",
+        "13/12/2018",
+        "14/12/2018",
+        "15/12/2018",
+        "16/12/2018",
+        "17/12/2018",
+        "18/12/2018",
+        "19/12/2018",
+      ]
+    }
+    checkInDate=""
+    checkInVisible={false}
+    checkOutDate=""
+    checkOutVisible={false}
+    formDate={2018-12-24T12:33:16.627Z}
+    nextMonth={[MockFunction]}
+    onChangeCheckIn={[MockFunction]}
+    onChangeCheckOut={[MockFunction]}
+    pickCheckIn={[MockFunction]}
+    pickCheckOut={[MockFunction]}
+    previousMonth={[MockFunction]}
+    price={298}
+    priceCountry="zł"
+    rating={4}
+    ratingAmount={123}
+    toogleCheckIn={[MockFunction]}
+    toogleCheckOut={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Price
+          price={298}
+          priceCountry="zł"
+          rating={4}
+          ratingAmount={123}
+        />,
+        <Dates
+          availableDates={
+            Array [
+              "4/12/2018",
+              "5/12/2018",
+              "6/12/2018",
+              "7/12/2018",
+              "8/12/2018",
+              "9/12/2018",
+              "10/12/2018",
+              "11/12/2018",
+              "12/12/2018",
+              "13/12/2018",
+              "14/12/2018",
+              "15/12/2018",
+              "16/12/2018",
+              "17/12/2018",
+              "18/12/2018",
+              "19/12/2018",
+            ]
+          }
+          checkInDate=""
+          checkInVisible={false}
+          checkOutDate=""
+          checkOutVisible={false}
+          formDate={2018-12-24T12:33:16.627Z}
+          nextMonth={[MockFunction]}
+          onChangeCheckIn={[MockFunction]}
+          onChangeCheckOut={[MockFunction]}
+          pickCheckIn={[MockFunction]}
+          pickCheckOut={[MockFunction]}
+          previousMonth={[MockFunction]}
+          toogleCheckIn={[MockFunction]}
+          toogleCheckOut={[MockFunction]}
+        />,
+        <button
+          className="search"
+          type="submit"
+        >
+          Search
+        </button>,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "price": 298,
+          "priceCountry": "zł",
+          "rating": 4,
+          "ratingAmount": 123,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "availableDates": Array [
+            "4/12/2018",
+            "5/12/2018",
+            "6/12/2018",
+            "7/12/2018",
+            "8/12/2018",
+            "9/12/2018",
+            "10/12/2018",
+            "11/12/2018",
+            "12/12/2018",
+            "13/12/2018",
+            "14/12/2018",
+            "15/12/2018",
+            "16/12/2018",
+            "17/12/2018",
+            "18/12/2018",
+            "19/12/2018",
+          ],
+          "checkInDate": "",
+          "checkInVisible": false,
+          "checkOutDate": "",
+          "checkOutVisible": false,
+          "formDate": 2018-12-24T12:33:16.627Z,
+          "nextMonth": [MockFunction],
+          "onChangeCheckIn": [MockFunction],
+          "onChangeCheckOut": [MockFunction],
+          "pickCheckIn": [MockFunction],
+          "pickCheckOut": [MockFunction],
+          "previousMonth": [MockFunction],
+          "toogleCheckIn": [MockFunction],
+          "toogleCheckOut": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Search",
+          "className": "search",
+          "type": "submit",
+        },
+        "ref": null,
+        "rendered": "Search",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Price
+            price={298}
+            priceCountry="zł"
+            rating={4}
+            ratingAmount={123}
+          />,
+          <Dates
+            availableDates={
+              Array [
+                "4/12/2018",
+                "5/12/2018",
+                "6/12/2018",
+                "7/12/2018",
+                "8/12/2018",
+                "9/12/2018",
+                "10/12/2018",
+                "11/12/2018",
+                "12/12/2018",
+                "13/12/2018",
+                "14/12/2018",
+                "15/12/2018",
+                "16/12/2018",
+                "17/12/2018",
+                "18/12/2018",
+                "19/12/2018",
+              ]
+            }
+            checkInDate=""
+            checkInVisible={false}
+            checkOutDate=""
+            checkOutVisible={false}
+            formDate={2018-12-24T12:33:16.627Z}
+            nextMonth={[MockFunction]}
+            onChangeCheckIn={[MockFunction]}
+            onChangeCheckOut={[MockFunction]}
+            pickCheckIn={[MockFunction]}
+            pickCheckOut={[MockFunction]}
+            previousMonth={[MockFunction]}
+            toogleCheckIn={[MockFunction]}
+            toogleCheckOut={[MockFunction]}
+          />,
+          <button
+            className="search"
+            type="submit"
+          >
+            Search
+          </button>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "price": 298,
+            "priceCountry": "zł",
+            "rating": 4,
+            "ratingAmount": 123,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "availableDates": Array [
+              "4/12/2018",
+              "5/12/2018",
+              "6/12/2018",
+              "7/12/2018",
+              "8/12/2018",
+              "9/12/2018",
+              "10/12/2018",
+              "11/12/2018",
+              "12/12/2018",
+              "13/12/2018",
+              "14/12/2018",
+              "15/12/2018",
+              "16/12/2018",
+              "17/12/2018",
+              "18/12/2018",
+              "19/12/2018",
+            ],
+            "checkInDate": "",
+            "checkInVisible": false,
+            "checkOutDate": "",
+            "checkOutVisible": false,
+            "formDate": 2018-12-24T12:33:16.627Z,
+            "nextMonth": [MockFunction],
+            "onChangeCheckIn": [MockFunction],
+            "onChangeCheckOut": [MockFunction],
+            "pickCheckIn": [MockFunction],
+            "pickCheckOut": [MockFunction],
+            "previousMonth": [MockFunction],
+            "toogleCheckIn": [MockFunction],
+            "toogleCheckOut": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search",
+            "className": "search",
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Search",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
